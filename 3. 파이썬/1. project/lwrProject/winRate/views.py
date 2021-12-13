@@ -9,3 +9,6 @@ def home(request):
     return render(request, 'home.html')
 
 
+def logins(request):
+    return render(request, 'login.html')
+
